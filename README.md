@@ -1,4 +1,4 @@
-# Sidestream Utilities
+# Sidescripts (Sidestream Scripts)
 
 This repository contains a collection of [TamperMonkey](https://www.tampermonkey.net/) scripts that I use to improve my DX while working at [sidestream](https://sidestream.tech). Feel free to use any of the scripts contained inside this repository to also improve your DX!
 
