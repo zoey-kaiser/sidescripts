@@ -4,6 +4,13 @@ This repository contains a collection of [TamperMonkey](https://www.tampermonkey
 
 ## Scripts
 
+### GitHub Issue / PR Slack message formatted ([View](https://github.com/zoey-kaiser/sidestream-utils/blob/main/scripts/slack-issue-pr-message.js))
+
+Adds a small Slack button to the top of GitHub issues and pull requests. When pressed, a message that matches the PR or PD message formats is added to your clipboard to ping others in Slack on that issue or pull request. 
+
+- Issue format: `PD: ISSUE_TITLE: https://github.com/org/repo/issues/ISSUE_ID`
+- Pull Request format: `PR: PULL_REQUEST_TITLE: https://github.com/org/repo/pull/PULL_REQUEST_ID`
+
 ## Installation
 
 1. Install [TamperMonkey](https://www.tampermonkey.net/) for your browser
