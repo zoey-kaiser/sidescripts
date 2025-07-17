@@ -11,6 +11,11 @@ Adds a small Slack button to the top of GitHub issues and pull requests. When pr
 - Issue format: `PD: ISSUE_TITLE: https://github.com/org/repo/issues/ISSUE_ID`
 - Pull Request format: `PR: PULL_REQUEST_TITLE: https://github.com/org/repo/pull/PULL_REQUEST_ID`
 
+### Prisma Studio overflow fix
+
+In newer versions of Prisma Studio, there is an incorrect CSS variable set on the dropdowns that cause them to no longer overflow (See: https://github.com/prisma/prisma/issues/26464). 
+This script injects some CSS to resolve this issue. This script is only needed if you use Chrome.
+
 ## Installation
 
 1. Install [TamperMonkey](https://www.tampermonkey.net/) for your browser
